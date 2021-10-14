@@ -5,7 +5,7 @@ scn.title("kompiouteraki")
 n = "0"
 show = Label(scn, text=n)
 m="0"
-def pn1p():
+def pn1p():#power number 1 press
     global m
     if m == "0":
         m = m.replace("0", "", 1)
@@ -136,7 +136,7 @@ def pparcp():
         m = m.replace("0", "", 1)
     m += ")"
     show.config(text="p"+m)
-def n1p():
+def n1p():#number 1 press
     global n
     if n == "0":
         n = n.replace("0", "", 1)
